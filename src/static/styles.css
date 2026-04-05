@@ -24,6 +24,19 @@ header {
   border-radius: 5px;
 }
 
+.auth-status {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.auth-status button {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
 header h1 {
   margin-bottom: 10px;
 }
@@ -132,6 +145,18 @@ section h3 {
 
 .form-group {
   margin-bottom: 15px;
+}
+
+.role-panel {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.hint {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
 }
 
 .form-group label {
